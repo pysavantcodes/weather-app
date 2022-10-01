@@ -46,7 +46,7 @@ const Card = () => {
         notify();
         setLoading(false)
       }else{
-        const fetchedLocation = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${url}&limit=5&appid=d5bc5b2978ccf503c918012f8fa15f23`);
+        const fetchedLocation = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${url}&limit=5&appid=d5bc5b2978ccf503c918012f8fa15f23`);
         const data = await fetchedLocation.json();
         setLoading(false);
         setNoResult(false)
