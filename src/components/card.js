@@ -67,6 +67,7 @@ const Card = () => {
       setLoading(false)
       setLocations([])
       noNetwork();
+      alert(err)
     }
   }
   const getWeather = async()=>{
