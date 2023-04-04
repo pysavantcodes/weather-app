@@ -1,4 +1,4 @@
-View site at https://pysavant-weather-app.vercel.app/
+View site at https://pysavant-weather-app.netlify.app/
 
 
 # Getting Started with Create React App
